@@ -12,6 +12,10 @@
 		7780A13E255AF2D400F8C8E7 /* MathToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7780A13C255AF2D300F8C8E7 /* MathToolsTests.swift */; };
 		7780A13F255AF2D400F8C8E7 /* StringToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7780A13D255AF2D400F8C8E7 /* StringToolsTests.swift */; };
 		7780A150255AF56600F8C8E7 /* IntExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7780A142255AF2E700F8C8E7 /* IntExtensionTests.swift */; };
+		D59313CC273C887700CDC795 /* StringTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313CB273C887700CDC795 /* StringTools.swift */; };
+		D59313CE273C888D00CDC795 /* MathTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313CD273C888D00CDC795 /* MathTools.swift */; };
+		D59313D0273C88A700CDC795 /* Factorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313CF273C88A700CDC795 /* Factorization.swift */; };
+		D59313D2273C88BD00CDC795 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313D1273C88BD00CDC795 /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,10 @@
 		7780A13C255AF2D300F8C8E7 /* MathToolsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathToolsTests.swift; sourceTree = "<group>"; };
 		7780A13D255AF2D400F8C8E7 /* StringToolsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToolsTests.swift; sourceTree = "<group>"; };
 		7780A142255AF2E700F8C8E7 /* IntExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensionTests.swift; sourceTree = "<group>"; };
+		D59313CB273C887700CDC795 /* StringTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTools.swift; sourceTree = "<group>"; };
+		D59313CD273C888D00CDC795 /* MathTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTools.swift; sourceTree = "<group>"; };
+		D59313CF273C88A700CDC795 /* Factorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorization.swift; sourceTree = "<group>"; };
+		D59313D1273C88BD00CDC795 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 			children = (
 				7780A11D255AF2A800F8C8E7 /* HelloSwift.h */,
 				7780A11E255AF2A800F8C8E7 /* Info.plist */,
+				D59313CB273C887700CDC795 /* StringTools.swift */,
+				D59313CD273C888D00CDC795 /* MathTools.swift */,
+				D59313CF273C88A700CDC795 /* Factorization.swift */,
+				D59313D1273C88BD00CDC795 /* Int+Extension.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -153,7 +165,7 @@
 				TargetAttributes = {
 					7780A119255AF2A800F8C8E7 = {
 						CreatedOnToolsVersion = 12.1;
-						LastSwiftMigration = 1210;
+						LastSwiftMigration = 1310;
 					};
 					7780A122255AF2A800F8C8E7 = {
 						CreatedOnToolsVersion = 12.1;
@@ -202,6 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59313CC273C887700CDC795 /* StringTools.swift in Sources */,
+				D59313D2273C88BD00CDC795 /* Int+Extension.swift in Sources */,
+				D59313D0273C88A700CDC795 /* Factorization.swift in Sources */,
+				D59313CE273C888D00CDC795 /* MathTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +415,7 @@
 		7780A132255AF2A800F8C8E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -418,6 +435,7 @@
 		7780A133255AF2A800F8C8E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
