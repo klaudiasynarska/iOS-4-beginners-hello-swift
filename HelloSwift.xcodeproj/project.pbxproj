@@ -16,6 +16,7 @@
 		D59313CE273C888D00CDC795 /* MathTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313CD273C888D00CDC795 /* MathTools.swift */; };
 		D59313D0273C88A700CDC795 /* Factorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313CF273C88A700CDC795 /* Factorization.swift */; };
 		D59313D2273C88BD00CDC795 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313D1273C88BD00CDC795 /* Int+Extension.swift */; };
+		D59313D4273DD7D400CDC795 /* FactorizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59313D3273DD7D300CDC795 /* FactorizationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		D59313CD273C888D00CDC795 /* MathTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTools.swift; sourceTree = "<group>"; };
 		D59313CF273C88A700CDC795 /* Factorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorization.swift; sourceTree = "<group>"; };
 		D59313D1273C88BD00CDC795 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		D59313D3273DD7D300CDC795 /* FactorizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorizationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		7780A127255AF2A800F8C8E7 /* HelloSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				D59313D3273DD7D300CDC795 /* FactorizationTests.swift */,
 				7780A13C255AF2D300F8C8E7 /* MathToolsTests.swift */,
 				7780A13D255AF2D400F8C8E7 /* StringToolsTests.swift */,
 				7780A142255AF2E700F8C8E7 /* IntExtensionTests.swift */,
@@ -228,6 +231,7 @@
 				7780A13F255AF2D400F8C8E7 /* StringToolsTests.swift in Sources */,
 				7780A150255AF56600F8C8E7 /* IntExtensionTests.swift in Sources */,
 				7780A13E255AF2D400F8C8E7 /* MathToolsTests.swift in Sources */,
+				D59313D4273DD7D400CDC795 /* FactorizationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
