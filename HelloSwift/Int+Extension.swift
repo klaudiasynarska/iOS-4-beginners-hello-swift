@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+extension Int {
+    func times(_ closure: () -> Void) {
+        if self <= 0 {
+            return
+        }
+        for _ in 0..<self {
+            closure()
+        }
+    }
+}
